@@ -14,13 +14,13 @@
 		098CEC78191E8B70002D329E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 098CEC77191E8B70002D329E /* main.m */; };
 		098CEC7C191E8B70002D329E /* VWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 098CEC7B191E8B70002D329E /* VWAppDelegate.m */; };
 		098CEC7F191E8B70002D329E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 098CEC7D191E8B70002D329E /* Main.storyboard */; };
-		098CEC82191E8B70002D329E /* VWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 098CEC81191E8B70002D329E /* VWViewController.m */; };
 		098CEC84191E8B70002D329E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 098CEC83191E8B70002D329E /* Images.xcassets */; };
 		098CEC8B191E8B71002D329E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098CEC8A191E8B71002D329E /* XCTest.framework */; };
 		098CEC8C191E8B71002D329E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098CEC6B191E8B70002D329E /* Foundation.framework */; };
 		098CEC8D191E8B71002D329E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098CEC6F191E8B70002D329E /* UIKit.framework */; };
 		098CEC95191E8B71002D329E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 098CEC93191E8B71002D329E /* InfoPlist.strings */; };
 		098CEC97191E8B71002D329E /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 098CEC96191E8B71002D329E /* UITableViewController_Challenge_SolutionTests.m */; };
+		098CECA2191E9014002D329E /* VWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 098CECA1191E9014002D329E /* VWTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		098CEC7A191E8B70002D329E /* VWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWAppDelegate.h; sourceTree = "<group>"; };
 		098CEC7B191E8B70002D329E /* VWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWAppDelegate.m; sourceTree = "<group>"; };
 		098CEC7E191E8B70002D329E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		098CEC80191E8B70002D329E /* VWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWViewController.h; sourceTree = "<group>"; };
-		098CEC81191E8B70002D329E /* VWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWViewController.m; sourceTree = "<group>"; };
 		098CEC83191E8B70002D329E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		098CEC89191E8B71002D329E /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		098CEC8A191E8B71002D329E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		098CEC92191E8B71002D329E /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		098CEC94191E8B71002D329E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		098CEC96191E8B71002D329E /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		098CECA0191E9014002D329E /* VWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWTableViewController.h; sourceTree = "<group>"; };
+		098CECA1191E9014002D329E /* VWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				098CEC7A191E8B70002D329E /* VWAppDelegate.h */,
 				098CEC7B191E8B70002D329E /* VWAppDelegate.m */,
 				098CEC7D191E8B70002D329E /* Main.storyboard */,
-				098CEC80191E8B70002D329E /* VWViewController.h */,
-				098CEC81191E8B70002D329E /* VWViewController.m */,
+				098CECA0191E9014002D329E /* VWTableViewController.h */,
+				098CECA1191E9014002D329E /* VWTableViewController.m */,
 				098CEC83191E8B70002D329E /* Images.xcassets */,
 				098CEC72191E8B70002D329E /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				098CEC82191E8B70002D329E /* VWViewController.m in Sources */,
 				098CEC78191E8B70002D329E /* main.m in Sources */,
+				098CECA2191E9014002D329E /* VWTableViewController.m in Sources */,
 				098CEC7C191E8B70002D329E /* VWAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

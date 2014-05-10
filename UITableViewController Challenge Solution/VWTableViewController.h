@@ -1,5 +1,5 @@
 //
-//  VWViewController.h
+//  VWTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Valerino on 5/10/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VWViewController : UIViewController
+@interface VWTableViewController : UITableViewController
 
 @end
